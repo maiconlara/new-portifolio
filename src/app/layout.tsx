@@ -1,25 +1,23 @@
 import type { Metadata } from "next";
-import { Quicksand, Poppins, Open_Sans } from "next/font/google";
+import { Quicksand, Poppins, Open_Sans, Manrope, Sora } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/ui/header";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+
 
 const quicksand = Quicksand({
   variable: "--font-quicksand",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
+
+const sora = Sora({
+  variable: "--font-sora",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 
 export const metadata: Metadata = {
   title: "Maicon Lara - Desenvolvedor Web",
@@ -51,7 +49,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body
-        className={`flex flex-col w-full min-h-[calc(100vh-72px)] items-center justify-start ${quicksand.variable} ${poppins.variable} ${openSans.variable} antialiased`}
+        className={`flex flex-col w-full min-h-[calc(100vh-72px)] items-center justify-start ${quicksand.variable}  ${sora.variable} antialiased`}
       >
         <Header />
         {children}
