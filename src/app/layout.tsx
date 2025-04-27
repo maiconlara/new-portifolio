@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Quicksand, Poppins, Open_Sans, Manrope, Sora } from "next/font/google";
+import { Quicksand, Sora } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/ui/header";
 

@@ -1,6 +1,5 @@
-import { cn } from "@/lib/utils";
 import { Marquee } from "../magicui/marquee";
-import { RiTerminalLine, RiStarFill } from "@remixicon/react";
+import { RiStarFill } from "@remixicon/react";
 
 const stack = [
   {
