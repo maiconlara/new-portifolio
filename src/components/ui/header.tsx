@@ -20,7 +20,7 @@ export const Header = () => {
             Maicon Lara
           </p>
         </div>
-        <div className="flex flex-row gap-4 items-center">
+        <div className="flex flex-row gap-6 items-center">
           <Link
             className="text-white font-text text-xl hover:text-purple-light transition-colors"
             href="/"
