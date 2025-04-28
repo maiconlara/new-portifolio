@@ -10,23 +10,23 @@ export const HeroOrbiting = () => {
   return (
     <div className="relative flex h-[500px] min-w-[350px] flex-col items-center justify-center overflow-hidden">
       <OrbitingCircles iconSize={40}>
-        <ReactIcon />
-        <AngularIcon />
-        <JavaScriptIcon />
-        <NextIcon />
-        <TailwindIcon />
-        <TypeScriptIcon />
+        <ReactIcon size={40} />
+        <AngularIcon  size={40} />
+        <JavaScriptIcon size={32} />
+        <NextIcon  size={36}/>
+        <TailwindIcon size={36} />
+        <TypeScriptIcon size={32} />
       </OrbitingCircles>
       <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
-        <ReactIcon />
-        <AngularIcon />
+        <ReactIcon size={30} />
+        <AngularIcon size={30} />
         <div className="flex h-7 w-7">
-          <JavaScriptIcon />
+          <JavaScriptIcon size={32} />
         </div>
-        <NextIcon />
-        <TailwindIcon />
+        <NextIcon size={36} />
+        <TailwindIcon size={36} />
         <div className="flex h-7 w-7">
-          <TypeScriptIcon />
+          <TypeScriptIcon size={32} />
         </div>
       </OrbitingCircles>
     </div>

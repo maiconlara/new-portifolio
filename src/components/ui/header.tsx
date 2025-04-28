@@ -29,9 +29,9 @@ export const Header = () => {
           </Link>
           <Link
             className="text-white font-text text-xl hover:text-purple-light transition-colors"
-            href="/"
+            href="#career"
           >
-            Sobre
+            Carreira
           </Link>
           <Link
             className="text-white font-text text-xl hover:text-purple-light transition-colors"
