@@ -1,8 +1,10 @@
-export const NextIcon = () => {
+import { IconProps } from "./angular-icon";
+
+export const NextIcon = ({size}: IconProps) => {
   return (
     <svg
-      width="36"
-      height="36"
+      width={size}
+      height={size}
       viewBox="0 0 128 128"
       fill="none"
     >
