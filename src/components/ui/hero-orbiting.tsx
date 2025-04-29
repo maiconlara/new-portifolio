@@ -8,7 +8,7 @@ import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 
 export const HeroOrbiting = () => {
   return (
-    <div className="relative flex h-[500px] min-w-[350px] flex-col items-center justify-center overflow-hidden">
+    <div className="relative flex h-[500px] min-w-full lg:min-w-[350px] flex-col items-center justify-center ">
       <OrbitingCircles iconSize={40}>
         <ReactIcon size={40} />
         <AngularIcon  size={40} />

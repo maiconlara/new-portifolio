@@ -8,8 +8,8 @@ interface CareerCardProps {
 
 export const CareerCard = ({careerItem}: CareerCardProps) => {
   return (
-    <MagicCard className="flex flex-col rounded-xl  w-full h-[514px]">
-      <div className="flex flex-col items-start justify-between h-[514px] w-full rounded-xl py-10 p-8 bg-transparent ">
+    <MagicCard className="flex flex-col rounded-xl w-full h-full lg:h-[514px]">
+      <div className="flex flex-col items-start justify-between lg:h-[514px] w-full rounded-xl py-10 p-6 md:p-8 bg-transparent ">
         <div className="flex flex-col item-start justify-start w-full gap-3">
           <div className="flex flex-row w-full items-center justify-between">
             <p className="text-white text-xl font-semibold font-title cursor-default">
@@ -42,7 +42,7 @@ export const CareerCard = ({careerItem}: CareerCardProps) => {
           </div>
         </div>
 
-        <div className="flex  flex-col w-full  items-start justify-start gap-2">
+        <div className="flex  flex-col w-full  items-start justify-start gap-2 pt-10 lg:pt-0">
           <p className="text-purple-light text-base font-semibold font-text cursor-default">
             Tecnologias
           </p>
