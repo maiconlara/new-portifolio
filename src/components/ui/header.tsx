@@ -35,6 +35,12 @@ export const Header = () => {
           </Link>
           <Link
             className="text-white font-text text-xl hover:text-purple-light transition-colors"
+            href="#about"
+          >
+            Sobre
+          </Link>
+          <Link
+            className="text-white font-text text-xl hover:text-purple-light transition-colors"
             href="/"
           >
             Projetos

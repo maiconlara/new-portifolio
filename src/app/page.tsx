@@ -1,3 +1,4 @@
+import { About } from "@/components/ui/about";
 import { Career } from "@/components/ui/career";
 import { Hero } from "@/components/ui/hero";
 import { InfiniteScroll } from "@/components/ui/infinite-scroll";
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero />
         <InfiniteScroll />
         <Career />
+        <About />
       </main>
     </div>
   );
