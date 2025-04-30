@@ -1,5 +1,4 @@
-import { RiArrowDownSLine } from "@remixicon/react";
-import Link from "next/link";
+
 import { BackgroundBeams } from "./background-beam";
 
 export const About = () => {
