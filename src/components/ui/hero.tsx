@@ -19,7 +19,7 @@ export const Hero = () => {
             </p>
           </div>
           <Link
-            href="#career"
+            href="#about"
             className="flex flex-row gap-1 items-center justify-center bg-purple-medium rounded-full px-4 h-10 hover:bg-purple-strong transition-colors "
           >
             <p className="text-white text-base font-medium font-text select-none">

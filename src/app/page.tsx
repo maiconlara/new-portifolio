@@ -9,8 +9,8 @@ export default function Home() {
       <main className="flex flex-col ">
         <Hero />
         <InfiniteScroll />
-        <Career />
         <About />
+        <Career />
       </main>
     </div>
   );

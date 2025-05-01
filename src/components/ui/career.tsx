@@ -133,7 +133,7 @@ export const Career = () => {
   return (
     <div
       id="career"
-      className="relative overflow-hidden min-h-[calc(100vh-72px)] w-full flex py-18 flex-col items-center justify-start bg-black gap-18"
+      className="relative overflow-hidden min-h-[calc(100vh-72px)] w-full flex pb-18 flex-col items-center justify-start bg-black gap-18"
     >
       <div className="flex flex-col w-full items-center justify-center gap-5 max-w-[86vw]">
         <div className="flex flex-row w-full items-center justify-center gap-2">
